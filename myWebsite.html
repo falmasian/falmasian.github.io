@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatemeh Almasian - Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">FATEMEH ALMASIAN</div>
+        <div class="nav-links">
+            <a href="#about" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <!-- About Page -->
+    <section id="about" class="page active">
+        <div class="two-column-layout">
+            <div class="text-column">
+                <div class="about-text">
+                    <p>Hello, I am Fatemeh Almasian!</p>
+                    <p>I’m a senior Computer Engineering student at Amirkabir University of Technology with a strong passion for backend development and problem-solving. </p>
+                    <p> Alongside my studies, I work as a backend developer at Tosan, where I contribute to real-world banking systems. My academic background, combined with hands-on industry experience, has shaped me into a detail-oriented and growth-driven engineer.</p>
+                    <p> I’m especially interested in data-driven solutions and recently started a capstone project on air quality prediction in Tehran using machine learning.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/fatemehalmasian/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:fatemehalmasian1381@gmail@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/falmasian" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="files/cv.pdf" download>
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-column">
+                <img src="images/me.jpg" alt="Fatemeh Almasian">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="page">
+        <h2>PROJECTS</h2>
+
+        <div class="project">
+            <h3>Travel agency</h3>
+            <div class="project-header">
+                <div class="tech-tags">
+                    <span class="tech-tag java">Java</span>
+                    <span class="tech-tag spring">Spring Boot</span>
+                    <span class="tech-tag rest">REST API</span>
+                    <span class="tech-tag cache">Caching</span>
+                </div>
+            </div>
+            <p>It is a flight booking project that provides REST apis to book, cancel, search and filter flights based on origin, destination and flight time. This system also has the ability to cache reservations for a specific period of time. This project is written using Java and Spring.</p>
+        </div>
+
+        <div class="project">
+            <h3>Channel Manager</h3>
+            <div class="project-header">
+                <div class="tech-tags">
+                    <span class="tech-tag java">Java</span>
+                    <span class="tech-tag spring">Spring Boot</span>
+                    <span class="tech-tag microservice">Microservices</span>
+                    <span class="tech-tag validation">Validation</span>
+                </div>
+            </div>
+            <p>Designed and implemented a Spring Boot application providing various banking services to multiple channels, including Internet Banking and Mobile Banking. Integrated robust validation mechanisms to maintain data integrity and enhance user experience.</p>
+        </div>
+
+        <div class="project">
+            <h3>Define Customer</h3>
+            <div class="project-header">
+                <div class="tech-tags">
+                    <span class="tech-tag java">Java</span>
+                    <span class="tech-tag spring">Spring Boot</span>
+                    <span class="tech-tag camunda">Camunda BPM</span>
+                    <span class="tech-tag workflow">Workflow</span>
+                </div>
+            </div>
+            <p>Developed a comprehensive Spring Boot application enabling seamless remote customer onboarding and account opening without requiring branch visits. Key features included:</p>
+            <ul>
+                <li>Automated workflow management using Camunda BPM for process orchestration.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Page -->
+    <section id="experience" class="page">
+        <h2>WORK EXPERIENCE</h2>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <img src="images/tosan.png" alt="Tosan Logo" class="company-logo">
+                <div>
+                    <div class="job-title">JAVA BACKEND DEVELOPER</div>
+                    <span class="company">TOSAN BANKING PAYMENT</span>
+                    <span class="duration">2023 - Present</span>
+                </div>
+            </div>
+            <ul>
+                <li>Develop various APIs using Java and Spring</li>
+                <li>Upgrade spring boot</li>
+                <li>Develop sdk and library</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <img src="images/golrang.png" alt="Golrang Logo" class="company-logo">
+                <div>
+                    <div class="job-title">BACKEND DEVELOPER</div>
+                    <span class="company">GOLRANG SYSTEM</span>
+                    <span class="duration">2022-2023</span>
+                </div>
+            </div>
+            <ul>
+                <li>develop and implement APIs</li>
+                <li>Write Stored Procedures in sql server</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
