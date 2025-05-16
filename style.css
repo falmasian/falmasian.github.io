@@ -12,7 +12,6 @@ body {
   padding-top: 80px;
 }
 
-/* ناوبری */
 nav {
   background-color: #022e71;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -64,7 +63,6 @@ nav {
   color: #022039;
 }
 
-/* محتوای اصلی */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -79,7 +77,6 @@ nav {
   display: block;
 }
 
-/* بخش About */
 .two-column-layout {
   display: flex;
   gap: 0;
@@ -112,7 +109,6 @@ nav {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* لینک‌های اجتماعی */
 .social-links {
   margin-top: 2rem;
   display: flex;
@@ -130,7 +126,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* صفحه Projects */
 .project {
   background-color: #d4ebf8;
   padding: 1.5rem;
@@ -153,7 +148,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: #1a73e8;
+  color: #0547a8;
   margin-bottom: 0;
 }
 
@@ -162,7 +157,6 @@ h3 {
   margin-top: 0.5rem;
 }
 
-/* صفحه Experience */
 .experience-item {
   background-color: #d4ebf8;
   padding: 1.5rem;
@@ -188,7 +182,7 @@ h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 0.3rem;
-  color: #1a73e8;
+  color: #0547a8;
 }
 
 .company {
@@ -213,16 +207,14 @@ h3 {
   margin: 1.5rem 0;
 }
 
-/* فوتر */
 footer {
   text-align: center;
   padding: 2rem;
-  background-color: #1a73e8;
-  color: white;
+  background-color: #022e71;
+  color: #d4ebf8;
   margin-top: 3rem;
 }
 
-/* تگ‌های فناوری */
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
@@ -238,7 +230,6 @@ footer {
   color: white;
 }
 
-/* رنگ‌های مختلف برای تگ‌ها */
 .tech-tag.java {
   background-color: #5382a1;
 }
@@ -271,7 +262,6 @@ footer {
   background-color: #9c27b0;
 }
 
-/* دکمه‌ها */
 button, .btn {
   background-color: #ff8c42;
   color: white;
