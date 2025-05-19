@@ -242,38 +242,39 @@ footer {
 
 .tech-tag.cache {
   background-color: #0d47a1;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .tech-tag.microservice {
   background-color: #1a237e;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .tech-tag.camunda {
   background-color: #004d60;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .tech-tag.workflow {
   background-color: #6a0080;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .tech-tag.java {
   background-color: #274d63;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .tech-tag.spring {
-  background-color: #33691e;
-  color: #ffffff;
+  background-color: #234518;
+  color: #eeeeee;
 }
 
 .tech-tag.rest {
-  background-color: #c04500;
-  color: #ffffff;
+  background-color: #853100;
+  color: #eeeeee;
 }
+
 
 
 button, .btn {
